@@ -6,12 +6,14 @@ A command-line tool for quick Rust syntax reference. Access various Rust cheat s
 
 Clone and build from source:
 ```bash
-git clone https://github.com/yourusername/rust_cheat.git
+git clone https://github.com/KoldenAxelson/rust_cheat.git
 cd rust_cheat
 cargo build --release
 ```
 
 The binary will be available at `target/release/rust_cheat`
+For ease-of-use, move it to `~/.bin/rust_cheat` or `~/.bin/crab`
+Add this to your bash profile `export PATH="/Users/konrad/.bin:${PATH}"`
 
 ## Usage
 
@@ -93,5 +95,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Inspired by the Python Cheat Sheet CLI tool
+- Inspired by my Python Cheat Sheet CLI tool
 - Uses [syntect](https://github.com/trishume/syntect) for syntax highlighting
