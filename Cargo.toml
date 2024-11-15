@@ -1,0 +1,13 @@
+[package]
+name = "rust_cheat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+syntect = "5.0"
+
+[profile.release]
+strip = true      # Strip symbols from the binary
+opt-level = "s"   # Optimize for size
+lto = true        # Enable link-time optimization
+codegen-units = 1 # Reduce parallel code generation units for better optimization
