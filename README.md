@@ -13,7 +13,7 @@ cargo build --release
 
 The binary will be available at `target/release/rust_cheat`
 For ease-of-use, move it to `~/.bin/rust_cheat` or `~/.bin/crab`
-Add this to your bash profile `export PATH="/Users/konrad/.bin:${PATH}"`
+Add this to your bash profile `export PATH="/Users/{your user}/.bin:${PATH}"`
 
 ## Usage
 
